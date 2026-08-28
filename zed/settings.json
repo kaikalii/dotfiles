@@ -1,0 +1,110 @@
+{
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "material-icon-theme": true,
+    "nix": true,
+    "rust": true,
+    "toml": true,
+  },
+  "base_keymap": "VSCode",
+  "bottom_dock_layout": "contained",
+  "buffer_font_fallbacks": ["Uiua386", ".ZedMono"],
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 19.0,
+  "centered_layout": {
+    "left_padding": 0.2,
+  },
+  "cli_default_open_behavior": "existing_window",
+  "collaboration_panel": {
+    "button": false,
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "disable_ai": true,
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "min_column": 100,
+      "show_commit_summary": true,
+    },
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "gutter": {
+    "folds": false,
+  },
+  "icon_theme": "Material Icon Theme",
+  "inlay_hints": {
+    "enabled": false,
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy",
+        },
+      },
+    },
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "outline_panel": {
+    "dock": "left",
+  },
+  "profiles": {
+    "Uiua": {
+      "settings": {
+        "buffer_font_family": "Uiua386",
+        "buffer_font_size": 20,
+      },
+    },
+  },
+  "project_panel": {
+    "bold_folder_labels": true,
+    "diagnostic_badges": true,
+    "dock": "left",
+    "git_status_indicator": true,
+  },
+  "search": {
+    "case_sensitive": true,
+  },
+  "semantic_tokens": "combined",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "soft_wrap": "editor_width",
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+  },
+  "tabs": {
+    "close_position": "left",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "terminal": {
+    "blinking": "on",
+    "cursor_shape": "bar",
+    "font_fallbacks": ["Fira Code", "DejaVu Sans Mono", ".ZedMono"],
+    "font_family": "Uiua386",
+    "font_size": 19.0,
+    "max_scroll_history_lines": 5000,
+  },
+  "theme": {
+    "dark": "Catppuccin Macchiato - No Italics",
+    "light": "Catppuccin Latte - No Italics",
+    "mode": "system",
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+  },
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 20.0,
+  "use_system_window_tabs": false,
+}

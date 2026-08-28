@@ -1,0 +1,53 @@
+[
+  {
+    "bindings": {
+      "alt-left": "pane::GoBack",
+      "alt-right": "pane::GoForward",
+      "ctrl-g ctrl-a": "git::StageAll",
+      "ctrl-g ctrl-c": "git::Commit",
+      "ctrl-g ctrl-f": "git::Fetch",
+      "ctrl-g ctrl-l": "git::Pull",
+      "ctrl-g ctrl-p": "git::Push",
+      "ctrl-o": "workspace::Open",
+      "ctrl-r": "projects::OpenRecent",
+      "ctrl-shift-z": "zed::ResetAllZoom",
+    },
+    "unbind": {
+      "ctrl-g": "go_to_line::Toggle",
+      "ctrl-k ctrl-o": "workspace::Open",
+      "ctrl-shift-w": "workspace::CloseWindow",
+    },
+  },
+  {
+    "bindings": {
+      "alt-g": "git_panel::ToggleFocus",
+      "alt-l": "go_to_line::Toggle",
+      "ctrl-e": "project_panel::ToggleFocus",
+      "ctrl-shift-e": "workspace::ToggleLeftDock",
+    },
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "ctrl-r": "projects::OpenRecent",
+      "ctrl-shift-e": "project_panel::ToggleFocus",
+      "ctrl-shift-g": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-p ctrl-p": "pane::TogglePinTab",
+      "ctrl-shift-w": "workspace::CloseAllItemsAndPanes",
+    },
+    "context": "Pane",
+    "unbind": {
+      "ctrl-k ctrl-w": "workspace::CloseAllItemsAndPanes",
+      "ctrl-k shift-enter": "pane::TogglePinTab",
+      "ctrl-k w": [
+        "pane::CloseAllItems",
+        {
+          "close_pinned": false,
+        },
+      ],
+    },
+  },
+]
